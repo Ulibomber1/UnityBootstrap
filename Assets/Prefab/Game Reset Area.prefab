@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7512576937448468289}
   - component: {fileID: 7512576937448468288}
-  - component: {fileID: 7512576937448468291}
+  - component: {fileID: 2802424215619080046}
   m_Layer: 0
   m_Name: Game Reset Area
   m_TagString: Untagged
@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -50, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -45,7 +46,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1000, y: 10, z: 1000}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7512576937448468291
+--- !u!114 &2802424215619080046
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,7 +55,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7512576937448468294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 561ac24a6aa1542008ecdd09f43630b6, type: 3}
+  m_Script: {fileID: 11500000, guid: c18b6aab4d63e4a6e95b48101aac7e7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 0}
